@@ -529,18 +529,25 @@ body {
 
 
 @media (max-width: 900px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   .bento-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
 
   .span-2,
-  .span-3 {
-    grid-column: span 1;
+  .span-3,
+  .row-span-2 {
+    grid-column: span 1 !important;
+    grid-row: span 1 !important;
   }
 
   .venture-grid,
   .thesis-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
 }
 
@@ -558,11 +565,6 @@ body {
   #floating-nav a {
     font-size: 0.78rem;
   }
-
-  .bento-card {
-    padding: 22px;
-  }
-}
 
   .bento-card {
     padding: 22px;
