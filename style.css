@@ -534,10 +534,8 @@ body {
   }
 
   .span-2,
-  .span-3,
-  .row-span-2 {
+  .span-3 {
     grid-column: span 1;
-    grid-row: span 1;
   }
 
   .venture-grid,
@@ -552,9 +550,19 @@ body {
   }
 
   #floating-nav {
-    gap: 14px;
-    padding: 9px 16px;
+    gap: 8px 12px;
+    padding: 8px 14px;
+    border-radius: 18px;
   }
+
+  #floating-nav a {
+    font-size: 0.78rem;
+  }
+
+  .bento-card {
+    padding: 22px;
+  }
+}
 
   .bento-card {
     padding: 22px;
