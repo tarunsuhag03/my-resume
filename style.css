@@ -444,8 +444,19 @@ body {
 .skill-pill:hover {
   border-color: var(--amber-border);
   color: var(--text-primary);
+
+
+.hobbies-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
+.hobbies-bar h2 {
+  margin-bottom: 0;
+}
 
 .contact-banner {
   display: flex;
