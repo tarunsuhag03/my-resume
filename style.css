@@ -212,6 +212,10 @@ body {
   grid-column: span 3;
 }
 
+.row-span-2 {
+  grid-row: span 2;
+}
+
 .card-tag {
   display: inline-block;
   font-family: var(--font-mono);
@@ -519,8 +523,10 @@ body {
   }
 
   .span-2,
-  .span-3 {
+  .span-3,
+  .row-span-2 {
     grid-column: span 1;
+    grid-row: span 1;
   }
 
   .venture-grid,
